@@ -59,7 +59,7 @@ mybatis:
   - classpath:mybatis/mapper/*.xml
 
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: microservice-emp-config
   datasource:
